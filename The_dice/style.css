@@ -1,0 +1,91 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: #cccccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/bg3.jpg);
+    background-attachment: fixed;
+
+}
+@media only screen and (max-width: 767px) {
+    body {
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background-image: url("img/bg33.jpg");
+    }
+    }
+
+header{
+    width:90%;
+    margin: 15px auto;
+    height: 10vh;
+}
+.header-font{
+    font-family: 'Aladin', cursive;
+    font-family: 'Merienda One', cursive;
+    font-size: 5vw;
+    color: yellow;
+    }
+
+
+    /*  end of header section styling babe */
+
+
+    /*  lets play with main area boom... */
+.content{
+    height:45vw;
+    width:90%;
+    margin: 4vw auto;
+}
+.sec1{
+    width: 50%;
+    float: left;
+    }
+.sec2{
+    width: 50%;
+    float: left;
+    }
+.player-name{
+    font-family: 'Aladin', cursive;
+    font-family: 'Merienda One', cursive;
+    font-size: 2vw;
+    color: greenyellow;
+
+}
+.player-image{
+    margin: 5vw;
+    height: 20vw;
+}
+#play-button{
+    font-family: 'Aladin', cursive; 
+    font-family: 'Merienda One', cursive;
+    font-size: 4vw;
+    border: 7px solid gold;
+    padding: 0vw 10vw;
+    border-radius: 4vw;
+}
+.reset-button{
+    font-family: 'Aladin', cursive; 
+    font-family: 'Merienda One', cursive;
+    font-size: 4vw;
+    border: 7px solid gold;
+    padding: 0vw 2vw;
+    border-radius: 4vw;
+}
+
+/*  to chaliye footer ki styling krte h  */
+
+footer{
+    height: 10vh;
+    font-size: 3vw;
+    margin: 2rem auto;
+} 
+.copyright{
+    color: gold;
+    
+}
