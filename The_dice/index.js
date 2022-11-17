@@ -47,6 +47,7 @@ switch(randomNumberPlayer2)
         break;
     case 2:
         document.getElementById("dic-player-2").src =   "/img/dic2.png";
+        break;
     case 3:
         document.getElementById("dic-player-2").src =   "/img/dic3.png";
         break;
